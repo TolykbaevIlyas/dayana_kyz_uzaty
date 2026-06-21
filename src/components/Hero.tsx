@@ -7,7 +7,7 @@ import { scrollToSection } from "@/lib/scroll";
 import { useInvitation } from "@/context/InvitationContext";
 import { Ornament } from "@/components/ui/Ornament";
 
-const HERO_IMAGE = "/images/heroImg.jpg";
+const HERO_IMAGE = "/images/hero-image.jpg";
 
 const silkEase = [0.25, 0.1, 0.25, 1] as const;
 
