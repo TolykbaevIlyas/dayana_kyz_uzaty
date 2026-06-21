@@ -1457,6 +1457,73 @@
   letter-spacing: 0.5px;
 }
 
+/* Hosts */
+.hosts-section {
+  position: relative;
+  overflow: hidden;
+  padding: 70px 20px;
+  background:
+    linear-gradient(180deg, var(--color-plum) 0%, rgba(138, 82, 107, 0.96) 6%, transparent 6%),
+    linear-gradient(135deg, var(--color-cream) 0%, #fff7f2 48%, #f9f0f3 100%);
+  text-align: center;
+}
+
+.hosts-card {
+  position: relative;
+  max-width: 660px;
+  margin: 0 auto;
+  padding: clamp(34px, 6vw, 58px) clamp(24px, 5vw, 48px);
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(212, 150, 161, 0.24);
+  border-radius: 8px;
+  box-shadow: 0 22px 70px rgba(138, 82, 107, 0.12);
+}
+
+.hosts-card::before {
+  content: "";
+  position: absolute;
+  inset: 12px;
+  border: 1px solid rgba(212, 150, 161, 0.2);
+  border-radius: 4px;
+  pointer-events: none;
+}
+
+.hosts-text {
+  position: relative;
+  z-index: 1;
+  font-family: var(--font-cormorant);
+  font-size: clamp(34px, 6vw, 52px);
+  font-style: italic;
+  line-height: 1.25;
+  color: var(--color-plum);
+}
+
+.hosts-names {
+  position: relative;
+  z-index: 1;
+  margin-top: 10px;
+  font-family: var(--font-playfair);
+  font-size: clamp(20px, 4vw, 30px);
+  color: var(--color-dark);
+  letter-spacing: 1.5px;
+}
+
+.hosts-ornament {
+  position: absolute;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.hosts-ornament--left {
+  top: 34px;
+  left: 5%;
+}
+
+.hosts-ornament--right {
+  bottom: 28px;
+  right: 6%;
+}
+
 /* Dress code */
 .dress-code-section {
   background:

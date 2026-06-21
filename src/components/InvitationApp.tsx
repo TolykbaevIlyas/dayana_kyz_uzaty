@@ -12,6 +12,7 @@ import { Timer } from "@/components/Timer";
 import { EventInfo } from "@/components/EventInfo";
 import { Story } from "@/components/Story";
 import { Features } from "@/components/Features";
+import { HostsSignature } from "@/components/HostsSignature";
 import { DressCode } from "@/components/DressCode";
 import { RSVP } from "@/components/RSVP";
 import { Footer } from "@/components/Footer";
@@ -33,6 +34,7 @@ export function InvitationApp() {
         <EventInfo />
         <Story />
         <Features />
+        <HostsSignature />
         {/* <DressCode /> */}
         <RSVP />
         <Footer />
