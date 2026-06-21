@@ -33,7 +33,7 @@ export function InvitationApp() {
         <EventInfo />
         <Story />
         <Features />
-        <DressCode />
+        {/* <DressCode /> */}
         <RSVP />
         <Footer />
       </div>
